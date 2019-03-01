@@ -1,0 +1,23 @@
+body {font-family: Helvetica;
+font-size: 22px;
+color: seashell;
+background-color: black;
+opacity; 0.9
+}
+
+header {display: flex;
+  position: fixed;
+  border-left: 1px solid seashell;
+  z-index: 1;
+  height: 69px;
+  width: 100%;
+}
+.tea {height: 50px;
+margin-left: 10px;
+margin-right: 800px;
+}
+header nav {text-decoration: underline;
+  display: flex;
+  align-items: center;
+  }
+header span {padding-right: 20px;}
