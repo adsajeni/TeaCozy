@@ -6,7 +6,6 @@ opacity; 0.9
 }
 
 header {display: flex;
-  position: fixed;
   border-bottom: 1px solid seashell;
   z-index: 1;
   height: 69px;
@@ -23,5 +22,19 @@ header nav {text-decoration: underline;
 header span {padding-right: 20px;
 }
 
-.OurMission {display: flex;
+.OurMission {background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+flex-grow: 1;
+width: 1200px;
+height: 700px;
+}
+
+.OurMission h2 {display: flex;
+justify-content: center;
+align-items: center;
+flex-grow: 1;
+}
+
+.OurMission h4 {display: flex;
+justify-content: center;
+flex-grow: 1;
 }
