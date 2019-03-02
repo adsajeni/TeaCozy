@@ -7,7 +7,7 @@ opacity; 0.9
 
 header {display: flex;
   position: fixed;
-  border-left: 1px solid seashell;
+  border-bottom: 1px solid seashell;
   z-index: 1;
   height: 69px;
   width: 100%;
@@ -20,4 +20,8 @@ header nav {text-decoration: underline;
   display: flex;
   align-items: center;
   }
-header span {padding-right: 20px;}
+header span {padding-right: 20px;
+}
+
+.OurMission {display: flex;
+}
