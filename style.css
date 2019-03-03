@@ -13,7 +13,7 @@ header {display: flex;
 }
 .tea {height: 50px;
 margin-left: 10px;
-margin-right: 800px;
+margin-right: 700px;
 }
 header nav {text-decoration: underline;
   display: flex;
@@ -23,18 +23,51 @@ header span {padding-right: 20px;
 }
 
 .OurMission {background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
-flex-grow: 1;
+  flex-grow: 1;
 width: 1200px;
 height: 700px;
+padding-top: 300px;
+background-color: black;
+border-left: 80px solid black;
 }
+
 
 .OurMission h2 {display: flex;
 justify-content: center;
-align-items: center;
 flex-grow: 1;
 }
 
 .OurMission h4 {display: flex;
 justify-content: center;
 flex-grow: 1;
+}
+
+.TeaMonth {display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.columns {display: flex;
+flex-direction: row;
+margin-left: 200px;
+width: 1000px;
+}
+  .spiced {height: 200px;
+    width: 300px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+   }
+
+  .FallBerry p {display: flex;
+  justify-content: center;
+}
+
+.OtherRows {display: flex;
+  flex-direction: row;
+  width: 700px;
+    }
+
+.tea {height: 200px;
+  width: 300px;
+  margin-bottom: 10px;
 }
