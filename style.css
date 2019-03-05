@@ -65,16 +65,19 @@ width: 1000px;
 
 .OtherRows {display: flex;
   flex-direction: row;
+  justify-content: center;
   }
 
 .tea {height: 200px;
   width: 300px;
   margin-bottom: 10px;
+  margin-right: 20px;
 }
 
 .teabed {height: 200px;
   width: 300px;
   margin-bottom: 10px;
+    margin-right: 20px;
   }
 
 .locations {background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
