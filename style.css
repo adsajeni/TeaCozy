@@ -10,6 +10,7 @@ header {display: flex;
   z-index: 1;
   height: 69px;
   width: 100%;
+  margin: auto;
 }
 .tea {height: 50px;
 margin-left: 10px;
@@ -70,4 +71,44 @@ width: 1000px;
 .tea {height: 200px;
   width: 300px;
   margin-bottom: 10px;
+}
+
+.locations {background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+width: 1200px;
+height: 500px;
+margin: auto;
+}
+
+.locations h2 {text-align: center;
+padding-top: 80px;
+margin-bottom: 15px;
+}
+
+.downtown3 {display: flex;
+  opacity: 0.9;
+flex-direction: row;
+justify-content: space-around;
+}
+
+.downtown {background-color: black;
+  width: 300px;
+  text-align: center;
+}
+
+.eastbay {background-color: black;
+  width: 300px;
+  text-align: center;
+}
+
+.oakdale {background-color: black;
+  width: 300px;
+  text-align: center;
+  }
+
+  .contact {text-align: center;
+    height: 200px;
+  }
+
+  footer {text-align: left;
+  margin-left: 20px;
 }
